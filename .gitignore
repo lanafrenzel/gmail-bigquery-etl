@@ -1,37 +1,20 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-*$py.class
+*.so
 
-# Caches
-*.log
-*.pot
-*.pyc
-*.pyo
-*.pyd
-*.sqlite3
-*.db
-*.db-journal
-
-# Env
-.env
-.env.*
-
-# VSCode
-.vscode/
-
-# PyCharm
-.idea/
-
-# Virtual environments
+# Virtual environment
 .venv/
-venv/
 env/
 
-# Docker
-*.pid
-*.pid.lock
-
-# System files
+# macOS & VSCode
 .DS_Store
-Thumbs.db
+.vscode/
+
+# Sensitive data
+token_uploader/client_secret.json
+token_uploader/drive-key.json
+user_token_*.json
+
+# Logs
+*.log
