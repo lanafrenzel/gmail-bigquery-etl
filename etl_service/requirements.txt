@@ -1,0 +1,9 @@
+Flask
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+google-api-python-client
+google-cloud-bigquery
+google-cloud-storage
+functions-framework
+gunicorn
